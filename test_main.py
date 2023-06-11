@@ -6,7 +6,7 @@ class TestClass(unittest.TestCase):
 
     def test_add(self):
         result = main.add(10, 5)
-        self.assertEquals(result, 11)
+        self.assertEquals(result, 15)
 
 
 if __name__ == '__main__':
